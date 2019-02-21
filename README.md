@@ -1,6 +1,7 @@
 ## 如何显示GitHub pages？
 
 
+
 第一次尝试：
 先有readme文件，再传html文件但名字非index，那么GitHub pages会显示哪个呢？
 
@@ -27,4 +28,6 @@ GitHub Pages设置好master branch为site source之后，等待一会，刷新�
 本地使用Git branch -a 查看远程分支 ;使用Git branch查看本地分支
 git checkout -b 分支名 origin/分支名，根据远程分支创建本地分支，并转到分支上
 之后可以使用git checkout 分支名或mast进行切换
+
+三，分支合并后又进行了编辑，要回滚到没有merge的时候
 
